@@ -20,7 +20,7 @@ import PriceSection from "./PriceSection";
 import AnimatedText from "react-animated-text-content";
 // import AudioSection from "./AudioSection";
 import Stepper from "./Stepper";
-import Quote from "./Quote";
+// import Quote from "./Quote";
 // import TimeLine from "./TimeLine";
 const Wrapper = styled.div`
   width: 100%;
@@ -197,7 +197,7 @@ function Home({ slides }) {
       <Services data-aos="fade-up" />
       {/* <ClientReview/> */}
       {/* <Accordion /> */}
-          <Quote/>
+          {/* <Quote/> */}
       {/* <TimeLine/> */}
       <Contact data-aos="fade-up" />
     </>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f60f3ba.css",
-    "main.js": "/static/js/main.64947ff3.js",
+    "main.css": "/static/css/main.7f20f17c.css",
+    "main.js": "/static/js/main.56d15786.js",
     "static/js/787.a526ec4b.chunk.js": "/static/js/787.a526ec4b.chunk.js",
     "static/media/Famnivision.mp4": "/static/media/Famnivision.7651ada826fb576eab60.mp4",
     "static/media/cyber.jpg": "/static/media/cyber.e2f72c58aca1a96859e8.jpg",
@@ -17,14 +17,20 @@
     "static/media/rtt3.png": "/static/media/rtt3.5d181d27c41c59c726db.png",
     "static/media/femni.jpg": "/static/media/femni.6ea653b6c41d878916e7.jpg",
     "static/media/am1.JPG": "/static/media/am1.f08cad401e07a1978bbc.JPG",
+    "static/media/eatting.png": "/static/media/eatting.c124652737f6b3b4ba4d.png",
     "static/media/rtt4.png": "/static/media/rtt4.243241c1cfe8cbc2989f.png",
+    "static/media/body.png": "/static/media/body.31eac09b9cead6c066fa.png",
+    "static/media/rier.jpg": "/static/media/rier.db4de3a629d85543e182.jpg",
+    "static/media/health.jpg": "/static/media/health.fecad22ea5b00862a99d.jpg",
+    "static/media/stress.jpg": "/static/media/stress.13e5cc1bcce0b59ed0f1.jpg",
+    "static/media/rommance.jpg": "/static/media/rommance.f0cbed2cd9d9b1d0196e.jpg",
     "index.html": "/index.html",
-    "main.6f60f3ba.css.map": "/static/css/main.6f60f3ba.css.map",
-    "main.64947ff3.js.map": "/static/js/main.64947ff3.js.map",
+    "main.7f20f17c.css.map": "/static/css/main.7f20f17c.css.map",
+    "main.56d15786.js.map": "/static/js/main.56d15786.js.map",
     "787.a526ec4b.chunk.js.map": "/static/js/787.a526ec4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f60f3ba.css",
-    "static/js/main.64947ff3.js"
+    "static/css/main.7f20f17c.css",
+    "static/js/main.56d15786.js"
   ]
 }

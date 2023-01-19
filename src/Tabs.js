@@ -11,7 +11,15 @@ import {GiLovers} from 'react-icons/gi'
 import {FaRegFrownOpen} from 'react-icons/fa'
 import {GiBackPain} from 'react-icons/gi'
 import {BiTired} from 'react-icons/bi'
-
+import BodyImg from './image/body.png'
+import Healthimg from './image/health.jpg'
+import EatingImg from './image/eatting.png'
+import Familyimg from './image/family.jpg'
+import Carrier from './image/rier.jpg'
+import Romance from './image/rommance.jpg'
+import Fear from './image/fear.jpg'
+import Stress from './image/stress.jpg'
+import Panic from './image/panic.jpg'
 function Tabs() {
     const [toggleState, setToggleState] = useState(1);
   
@@ -60,7 +68,8 @@ function Tabs() {
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
+      <div class="accordion-body ">
+        <img className="tabimg" src={BodyImg} alt="" />
       What do you see when you look in the mirror?
 Do you see your body in a positive or negative way?
 Are you happy or sad with the way you look?
@@ -80,6 +89,7 @@ at one point or another, and they all relate to body image.
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+      <img className="tabimg" src={Healthimg} alt="" />
       •Gastroesophageal reflux disease (GERD)
 •Diabetes risk, metabolic syndrome, and prediabetes
 •Type 2 diabetes
@@ -101,6 +111,7 @@ at one point or another, and they all relate to body image.
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+      <img className="tabimg" src={EatingImg} alt="" />
       Common eating disorders include anorexia nervosa,
 bulimia nervosa, and binge-eating disorder. Anorexia
 nervosa is a condition where people avoid food, severely
@@ -132,6 +143,7 @@ people worry about their weight, what they eat, and how they look.
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+      <img className="tabimg" src={Familyimg} alt="" />
       The state of being connected by blood, marriage or adoption. Maintaining
 a strong relationship requires constant care and communication, and
 certain traits have been shown to be especially important for fostering
@@ -149,6 +161,7 @@ healthy relationships.
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+      <img className="tabimg" src={Carrier} alt="" />
       Positive relationships in the workplace are an integral part of career success.
 When building relationships in the workplace, you will notice an increase in
 productivity and overall job satisfaction. You can build lasting, professional
@@ -168,6 +181,7 @@ intelligence and getting to know your coworkers.
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+      <img className="tabimg" src={Romance} alt="" />
       Love is one of the most profound emotions known to human beings. There
 are many kinds of love, but many people seek its expression in a romantic
 relationship with a compatible partner (or partners). For these individuals,
@@ -199,6 +213,7 @@ and social contact.
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+      <img className="tabimg" src={Fear} alt="" />
       The first thing to note is the fact that ‘fear’ and ‘phobia’ are not the
 same things. They are two completely different things though they are
 similar and interconnected, using them interchangeably is still incorrect.
@@ -219,6 +234,7 @@ will cause irrational fear that will consume most of most of your time and energ
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+      <img className="tabimg" src={Panic} alt="" />
       Panic attacks are classified into three basic types: Spontaneous or uncued
 panic attacks occur without warning or “out of the blue.” No situational or
 environmental triggers are associated with the attack. In any given year,
@@ -239,6 +255,7 @@ immune to it. Most people first start to experience panic attack symptoms in the
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+      <img className="tabimg" src={Stress} alt="" />
       Stress is a biological reaction that all of us can experience at any age.
 
 National Institutes of Mental Health (NIMH) define it as “how the brain

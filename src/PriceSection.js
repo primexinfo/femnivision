@@ -21,13 +21,23 @@ const PriceSection = () => {
                 <div  class="pricingTable">
                     <div class="pricingTable-header">
                     <i class="fa-solid fa-face-grin-beam"></i>
-                        <div class="price-value"> $397.00 <span class="month">per month</span> </div>
+                        <div class="price-value"> $397.00 <span class="month"> LIMITED TIME OFFER
+</span> </div>
                     </div>
-                    <h3 class="heading">Deep relaxation</h3>
+                    <h3 class="heading">TRANSFORMATION 30   
+AVAILABLE FOR ONLY
+</h3>
                     <div class="pricing-content">
                         <ul>
-                        <li><b>Value $99</b>RTT™ relaxation recording to introduce and prepare you for your Hypnotherapy session </li>
-                            <li><b>Value $350</b> 1.5-hour to 2-hour RTT® hypnotherapy session to address your main issue/habit/concern</li>
+                        <li>Hypnotic relaxation recording to introduce you to hypnotherapy sessions Value $99
+</li>
+                        <li>1.5 hour to 2 hour session to address Issue/concern Value $350
+</li>
+                        <li>Hypnotic custom voice recording Value $198
+</li>
+                        <li>15-minute check-in call 7 days after the session Value $99 
+</li>
+
                         </ul>
                     </div>
                     <div class="pricingTable-signup">
@@ -41,13 +51,20 @@ const PriceSection = () => {
                 <div class="pricingTable ">
                     <div class="pricingTable-header">
                     <i class="fa-solid fa-face-grimace"></i>
-                        <div class="price-value"> $797.00 <span class="month">per month</span> </div>
+                        <div class="price-value"> $797.00 <span class="month">LIMITED TIME OFFER
+</span> </div>
                     </div>
-                    <h3 class="heading">Anxity and Stress</h3>
+                    <h3 class="heading">TRANSFORMATION 60 + THERAPEUTIC EFT
+</h3>
                     <div class="pricing-content">
                         <ul>
-                        <li><b>Value $99</b>RTT™ relaxation recording to introduce and prepare you for your Hypnotherapy session </li>
-                            <li><b>Value $350</b> 1.5-hour to 2-hour RTT® hypnotherapy session to address your main issue/habit/concern</li>
+                        <li>Hypnotic relaxation recording Value $99
+</li>
+                        <li>(2) 1.5 hour to 2 hour hypnotherapy session to address main issue/concern Value $700
+</li>
+                        <li>(2) Custom recording Transformation Value $396
+</li>
+                        <li>15 minute check-in call 7 days after the session Value $198</li>
                         </ul>
                     </div>
                     <div class="pricingTable-signup">
@@ -59,13 +76,21 @@ const PriceSection = () => {
                 <div class="pricingTable ">
                     <div class="pricingTable-header">
                     <i class="fa-solid fa-face-tired"></i>
-                        <div class="price-value"> $1841.00 <span class="month">per month</span> </div>
+                        <div class="price-value"> $1841.00 <span class="month">LIMITED TIME OFFER
+</span> </div>
                     </div>
-                    <h3 class="heading">phobias and fears</h3>
+                    <h3 class="heading">TRANSFORMATION 90 + THERAPEUTIC EFT
+</h3>
                     <div class="pricing-content">
                         <ul>
-                            <li><b>Value $99</b>RTT™ relaxation recording to introduce and prepare you for your Hypnotherapy session </li>
-                            <li><b>Value $350</b> 1.5-hour to 2-hour RTT® hypnotherapy session to address your main issue/habit/concern</li>
+                            <li>Hypnotic relaxation recording  $99
+</li>
+                            <li>(3) 1.5 hour to 2 hour hypnotherapy session to address main concern Value $1050
+</li>
+                            <li>(3) Custom recording Transformation Value $594
+</li>
+                            <li>(3) 1 hour Therapeutic EFT session to help improve you forward Value $588
+</li>
                           
                         </ul>
                     </div>
@@ -78,13 +103,20 @@ const PriceSection = () => {
                 <div class="pricingTable ">
                     <div class="pricingTable-header">
                     <i class="fa-solid fa-face-smile-beam"></i>
-                        <div class="price-value"> $40.00 <span class="month">per month</span> </div>
+                        <div class="price-value"> $40.00 <span class="month">LIMITED TIME OFFER</span> </div>
                     </div>
-                    <h3 class="heading">Sleep Improvement</h3>
+                    <h3 class="heading">HYPNOTIC VIDEO DEEPENER
+</h3>
                     <div class="pricing-content">
                         <ul>
-                        <li><b>Value $99</b>RTT™ relaxation recording to introduce and prepare you for your Hypnotherapy session </li>
-                            <li><b>Value $350</b> 1.5-hour to 2-hour RTT® hypnotherapy session to address your main issue/habit/concern</li>
+                       <li>
+30 minute consultation Value $199 
+</li>
+                       <li>Hypnotic Video Deepener created with custom script and voice over with background music and animation to reinforce installation of new positive beliefs into the subconsci!ous mind Length 10-15 minutes Value $199
+</li>
+<li>Unlimited email support for 90 days after first session Value is Priceless
+</li>
+<li></li>
                         </ul>
                     </div>
                     <div class="pricingTable-signup">
