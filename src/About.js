@@ -17,7 +17,7 @@ function About() {
           <p className="text-justify">
             <strong>
               {" "}
-              Certified HYPNOTHERAPIST, RTT PRACTITIONER AND PROFESSIONAL COACH
+              Certified HYPNOTHERAPIST, RTT®  PRACTITIONER AND PROFESSIONAL COACH
 Diane is a solution-focused hypnotherapist and coach with Rapid Transformation therapy and EFT skills to uncover the root causes of limiting beliefs that cause specific issues concerns.  She uses a 3 step Joy Acceleration Program that removes old looping thoughts and replaces them with positive transformational thoughts.
 
             </strong>
@@ -37,12 +37,12 @@ Rapid Transformational Therapy helps the client understand where the issue they 
             <br/>
             <strong>ABOUT HYPNOTHERAPY</strong> <br />
             
-The practice of using the power of uggestion to bring about positive change in clients who are under deep relaxation.  This state of awareness that is different from the ordinary state of consciousness.
+The practice of using the power of suggestion to bring about positive change in clients who are under deep relaxation.  This state of awareness that is different from the ordinary state of consciousness.
 
             <br />
             <br/>
             <strong> I’m a strong believer that you can only change what you understand.
-The secret to completely healing your body and mind is to uncover the reason for the wrong beliefs that you have acquired in the past.  I will help you uncover and change those beliefsso they will never affect you again.
+The secret to completely healing your body and mind is to uncover the reason for the wrong beliefs that you have acquired in the past.  I will help you uncover and change those belief so they will never affect you again.
 </strong>
             <br />
           </p>

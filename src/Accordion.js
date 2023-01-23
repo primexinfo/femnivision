@@ -137,14 +137,14 @@ const Accordion = () => {
             are oftentimes exaggerated and can seem frightening to people, but
             it is important to remember that hypnosis has never hurt anyone. It
             is not mind-control and you cannot get stuck in it. It is a
-            medically approved 1 , legitimate therapy, and has
+            medically approved <sup>1</sup>  , legitimate therapy, and has
             scientifically-backed health benefits.
             <br /> <br />
             The term hypnosis comes from the Greek word ‘hypnos,’ meaning sleep.
             However, while sleep is a state of unconsciousness, hypnosis allows
             you to control and focus your subconsciousness. Unlike many other
             therapies, it contrives situations in which people respond to
-            imaginative suggestions 2 and can be doubly effective because of
+            imaginative suggestions <sup>2</sup>  and can be doubly effective because of
             this. Hypnosis is a very powerful tool that can be used to boost the
             effects of psychotherapy and can be used as complementary and/or an
             alternative to medicinal treatment.

@@ -70,13 +70,14 @@ function Tabs() {
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body ">
         <img className="tabimg" src={BodyImg} alt="" />
-      What do you see when you look in the mirror?
+        <p>What do you see when you look in the mirror?
 Do you see your body in a positive or negative way?
 Are you happy or sad with the way you look?
 Ugh, my hair looks horrible! I think I need to lose a
-little weight. My figure looks fabulous! These are all
+little weight. My <br /> figure looks fabulous! These are all
 comments that we, as individuals, have said to ourselves
-at one point or another, and they all relate to body image.
+at one point or another, and they all relate to body image.</p>
+      
       </div>
     </div>
   </div>
@@ -90,14 +91,15 @@ at one point or another, and they all relate to body image.
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
       <img className="tabimg" src={Healthimg} alt="" />
-      •Gastroesophageal reflux disease (GERD)
+      <p> •Gastroesophageal reflux disease (GERD)
 •Diabetes risk, metabolic syndrome, and prediabetes
 •Type 2 diabetes
 •Asthma/reactive airway disease
 •Cardiovascular disease* and cardiovascular disease mortality
-•Hypertension
+<br /> Hypertension
 •Polycystic ovary syndrome (PCOS)
-•Urinary stress incontinence
+•Urinary stress incontinence</p>
+     
       </div>
     </div>
   </div>
@@ -112,15 +114,16 @@ at one point or another, and they all relate to body image.
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
       <img className="tabimg" src={EatingImg} alt="" />
-      Common eating disorders include anorexia nervosa,
-bulimia nervosa, and binge-eating disorder. Anorexia
+      <p> Common eating disorders include  anorexia nervosa,
+bulimia nervosa, and binge-eating disorder. <br /> Anorexia
 nervosa is a condition where people avoid food, severely
 restrict food or eat very small quantities of only certain foods.
 Eating disorders are serious conditions that cause both physical
-and emotional damage. All eating disorders can lead to irreversible
-and even life-threatening health problems, such as heart disease,
+and emotional <br /> damage. All eating disorders can lead to irreversible
+and even life-threatening health problems, such as <br /> heart disease,
 bone loss, stunted growth, infertility, and kidney damage. Many
-people worry about their weight, what they eat, and how they look. 
+people worry about their <br /> weight, what they eat, and how they look. </p>
+     
       </div>
     </div>
   </div>
@@ -144,10 +147,11 @@ people worry about their weight, what they eat, and how they look.
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
       <img className="tabimg" src={Familyimg} alt="" />
-      The state of being connected by blood, marriage or adoption. Maintaining
-a strong relationship requires constant care and communication, and
-certain traits have been shown to be especially important for fostering
-healthy relationships.
+      <p> The state of being connected by blood, marriage or adoption. Maintaining
+a strong relationship requires <br /> constant care and communication, and
+certain traits have been shown to be especially important for <br /> fostering
+healthy relationships.</p>
+     
       </div>
     </div>
   </div>
@@ -162,11 +166,12 @@ healthy relationships.
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
       <img className="tabimg" src={Carrier} alt="" />
-      Positive relationships in the workplace are an integral part of career success.
+      <p>Positive relationships in the workplace are an integral part of career success.
 When building relationships in the workplace, you will notice an increase in
 productivity and overall job satisfaction. You can build lasting, professional
 relationships by taking certain steps toward understanding your emotional
-intelligence and getting to know your coworkers.
+intelligence and <br /> getting to know your coworkers.</p>
+      
       </div>
     </div>
   </div>
@@ -182,16 +187,17 @@ intelligence and getting to know your coworkers.
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
       <img className="tabimg" src={Romance} alt="" />
-      Love is one of the most profound emotions known to human beings. There
-are many kinds of love, but many people seek its expression in a romantic
+      <p> Love is one of the most profound emotions known to human beings. There
+are many kinds of love, but <br /> many people seek its expression in a romantic
 relationship with a compatible partner (or partners). For these individuals,
 romantic relationships comprise one of the most meaningful aspects of life,
 and are a source of deep fulfillment. While need for human connection
-appears to be innate, the ability to form healthy, loving relationships is
+appears to be innate, the ability to form healthy, <br /> loving relationships is
 learned. Some evidence suggests that the ability to form a stable relationship
 starts to form in infancy, in a child&#39;s earliest experiences with a caregiver who
 reliably meets the infant&#39;s needs for food, care, warmth, protection, stimulation,
-and social contact.
+and social contact.</p>
+     
       </div>
     </div>
   </div>
@@ -214,14 +220,15 @@ and social contact.
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
       <img className="tabimg" src={Fear} alt="" />
-      The first thing to note is the fact that ‘fear’ and ‘phobia’ are not the
-same things. They are two completely different things though they are
-similar and interconnected, using them interchangeably is still incorrect.
+      <p>The first thing to note is the fact that ‘fear’ and ‘phobia’ are not the
+same things. They are two completely <br /> different things though they are
+similar and interconnected, using them interchangeably is still incorrect. <br />
 Fear is a common feeling experienced by everyone. Phobia is a form of
-anxiety disorder, which refers to excessive and persistent fear of objects
+anxiety disorder, which refers to <br /> excessive and persistent fear of objects
 and situations which do not carry real threats; Specificity. Fear can be felt
 by anyone when faced with an unknown or dangerous situation. Phobia
-will cause irrational fear that will consume most of most of your time and energy.
+will cause irrational fear <br /> that will consume most of most of your time and energy.</p>
+      
       </div>
     </div>
   </div>
@@ -235,13 +242,14 @@ will cause irrational fear that will consume most of most of your time and energ
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
       <img className="tabimg" src={Panic} alt="" />
-      Panic attacks are classified into three basic types: Spontaneous or uncued
-panic attacks occur without warning or “out of the blue.” No situational or
+      <p>Panic attacks are classified into three basic types: Spontaneous or uncued
+panic attacks occur without <br /> warning or “out of the blue.” No situational or
 environmental triggers are associated with the attack. In any given year,
 up to 3 percent of American adults experience panic disorders. Panic disorders
-can happen to anyone, and there doesn’t seem to be any particular group that’s
-immune to it. Most people first start to experience panic attack symptoms in their
-20s, but they can also happen to children.
+can happen to <br /> anyone, and there doesn’t seem to be any particular group that’s
+immune to it. Most people first start to <br /> experience panic attack symptoms in their
+20s, but they can also happen to children.</p>
+      
       </div>
     </div>
   </div>
@@ -256,17 +264,19 @@ immune to it. Most people first start to experience panic attack symptoms in the
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
       <img className="tabimg" src={Stress} alt="" />
-      Stress is a biological reaction that all of us can experience at any age.
+      <p> Stress is a biological reaction that all of us can experience at any age.
 
 National Institutes of Mental Health (NIMH) define it as “how the brain
 and body respond to any demand.” Stress can be routine, brought on
-by sudden negative change or Ttauma experienced during an event
-such as an accident, war or a natural disaster. According to Harvard
-Health, as we get older, stress can come “as a result of managing chronic
-illness, losing a spouse, being a caregiver, or adjusting to changes due to
+by <br /> sudden negative change or Ttauma experienced during an event
+such as an accident, war or a natural <br /> disaster. According to Harvard
+Health, as we get older, stress can come “as a result of managing br
+ chronic
+<br /> illness, losing a spouse, being a caregiver, or adjusting to changes due to
 finances, retirement, or separation from friends and family.” Some people
 are able to cope with stress and recover better than others, but long-term
-stress can be difficult to manage and it could be harmful to your health.
+stress can be difficult to manage and it could be harmful to your health.</p>
+     
       </div>
     </div>
   </div>

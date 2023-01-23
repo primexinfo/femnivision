@@ -21,7 +21,7 @@ const Stepper = () => {
         <div data-aos="fade-left" class="c-stepper__content">
             
             <h2 class='c-stepper__package-name'>Hypnotherapy Session </h2>
-            <p class='c-stepper__package-desc'>The session will be over the internet and last approximately 1.5 to 2 hours.  If we need a little extra time, I always ask clients to block out three hours.  During the initial 15-minute consultations, we will review the information you gave me and clarify exactly what you want to do and how you want to be.  This will be followed by an RTT hypnotherapy session, which includes hypnosis and regression to find the root cause of the issue.  Your session will be completed with a reframing and powerful transformation that aims at installing a positive new suggestion into your subconscious mind.
+            <p class='c-stepper__package-desc'>The session will be over the internet and last approximately 1.5 to 2 hours.  If we need a little extra time, I always ask clients to block out three hours.  During the initial 15-minute consultations, we will review the information you gave me and clarify exactly what you want to do and how you want to be.  This will be followed by an RTT®  hypnotherapy session, which includes hypnosis and regression to find the root cause of the issue.  Your session will be completed with a reframing and powerful transformation that aims at installing a positive new suggestion into your subconscious mind.
 </p>
         </div>
     </li>
@@ -43,7 +43,7 @@ A custom Video Deepener is offered as an add-on.  The video deepener comprises a
         <div data-aos="fade-left" class="c-stepper__content">
           
             <h2 class='c-stepper__package-name'>Post-Session Follow-Up</h2>
-            <p class='c-stepper__package-desc'>The success of your investment depends on the fact that you listen to your recording daily for a minimum of 21 days following your RTT hypnotherapy session.  I will be with you 10 days after your session to support you.  After 21 days of listening to the recording, we will schedule a check-in call.
+            <p class='c-stepper__package-desc'>The success of your investment depends on the fact that you listen to your recording daily for a minimum of 21 days following your RTT®  hypnotherapy session.  I will be with you 10 days after your session to support you.  After 21 days of listening to the recording, we will schedule a check-in call.
 
 
 

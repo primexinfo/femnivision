@@ -20,7 +20,7 @@ const PriceSection = () => {
             <div class="col-md-3 col-sm-6">
                 <div  class="pricingTable">
                     <div class="pricingTable-header">
-                    <i class="fa-solid fa-face-grin-beam"></i>
+                    <i class="fa-solid fa-face-smile-beam"></i>
                         <div class="price-value"> $397.00 <span class="month"> LIMITED TIME OFFER
 </span> </div>
                     </div>
@@ -50,7 +50,7 @@ AVAILABLE FOR ONLY
             <div class="col-md-3 col-sm-6">
                 <div class="pricingTable ">
                     <div class="pricingTable-header">
-                    <i class="fa-solid fa-face-grimace"></i>
+                    <i class="fa-solid fa-face-smile-beam"></i>
                         <div class="price-value"> $797.00 <span class="month">LIMITED TIME OFFER
 </span> </div>
                     </div>
@@ -75,7 +75,7 @@ AVAILABLE FOR ONLY
             <div class="col-md-3 col-sm-6">
                 <div class="pricingTable ">
                     <div class="pricingTable-header">
-                    <i class="fa-solid fa-face-tired"></i>
+                    <i class="fa-solid fa-face-smile-beam"></i>
                         <div class="price-value"> $1841.00 <span class="month">LIMITED TIME OFFER
 </span> </div>
                     </div>
@@ -83,7 +83,7 @@ AVAILABLE FOR ONLY
 </h3>
                     <div class="pricing-content">
                         <ul>
-                            <li>Hypnotic relaxation recording  $99
+                            <li>Hypnotic relaxation recording value $99
 </li>
                             <li>(3) 1.5 hour to 2 hour hypnotherapy session to address main concern Value $1050
 </li>
@@ -127,7 +127,7 @@ AVAILABLE FOR ONLY
         </div>
     </div>
 </div>
-<a target="_blank" href="#" className="white-mode">MORE ></a>
+{/* <a target="_blank" href="#" className="white-mode">MORE ></a> */}
 </>
     
     // <section className="pricing py-5">
