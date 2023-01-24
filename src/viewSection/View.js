@@ -41,7 +41,7 @@ function View( props) {
   
   <section   className='section'>
     <div className="title">
-      <h2 data-aos="fade-left" className="hero-title">How Does It Work !</h2>
+      <h2 data-aos="fade-left" className="hero-title">here are Some feedback from my clients</h2>
     </div>
     <div data-aos="fade-up"  className="section-center">
       {people.map((item, key)=>{

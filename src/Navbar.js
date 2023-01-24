@@ -6,6 +6,7 @@ import "./navbar.css";
 import { NavDropdown } from "react-bootstrap";
 import { FaPhone } from "react-icons/fa";
 import logo from '../src/image/Logo_Famnivission.png'
+
 function Navbar() {
   const [program, setAllProgram] = useState([]);
   const [navbar, setNavbar] = useState(false)
@@ -104,6 +105,11 @@ else{
                     <li className="nav-item mr-2 ">
                       <NavLink className="nav-link" to="/blogs">
                         Blog
+                      </NavLink>
+                    </li>
+                    <li className="nav-item mr-2 ">
+                      <NavLink className="nav-link" to="/testimonial">
+                        Testimonials
                       </NavLink>
                     </li>
                     <li className="nav-item mr-2">

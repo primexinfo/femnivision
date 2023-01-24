@@ -17,6 +17,7 @@ import AllBlogs from "./AllBlogs";
 import Programs from "./Programs";
 import ProgramSection from "./ProgramSection";
 import Terms from "./Terms";
+import View from "./viewSection/View";
 function App() {
   return (
     <>
@@ -30,6 +31,7 @@ function App() {
         <Route exact path="/faq" element={<Accordion />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blogs" element={<AllBlogs />} />
+        <Route exact path="/testimonial" element={<View />} />
         <Route exact path="/terms" element={<Terms />} />
 
         {/* <Route exact path="/blogs" element={<BlogSection {...InfoData} />} /> */}
