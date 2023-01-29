@@ -21,15 +21,18 @@ function Program() {
   }, []);
   return (
     <>
-      <section className="section mb-5 pb-2 pt-5"> <h2 className="text-center service-text-h hero-title solution-text">
+      <section className="section mb-5 pb-2 pt-2"> 
+      <h2 className="text-center service-text-h hero-title solution-text">
                 {" "}
-                Need a solution
+                <strong>NEED A SOLUTION </strong> <br />
+                <small style={{fontSize:"24px"}}>Explore My Programs</small>
+                
               </h2>
-        <div className="container">
+        <div className="container pt-3">
           <div className="row">
             <div className="col-12">
              
-              <p className="text-center service-text-p">Explore my programs</p>
+            
             </div>
           </div>
 

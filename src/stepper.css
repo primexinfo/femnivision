@@ -27,7 +27,12 @@
 .c-stepper__package-desc{
     color: #fefefe !important;
 }
-
+.stepTitle{
+    font-size: 4rem;
+    display: inline;
+    color: #fefefe;
+    margin-top: 60px;
+}
 .c-stepper__item:before {
     --size: 5rem;
     content: "";
@@ -66,6 +71,7 @@
 .c-stepper {
     --size: 3rem;
     --spacing: 0.5rem;
+    margin-top: 30px;
 }
 
 .c-stepper__item:not(:last-child):after {

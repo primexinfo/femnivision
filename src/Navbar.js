@@ -6,6 +6,7 @@ import "./navbar.css";
 import { NavDropdown } from "react-bootstrap";
 import { FaPhone } from "react-icons/fa";
 import logo from '../src/image/Logo_Famnivission.png'
+import MegaServiceMenu from "./MegaServiceMenu";
 
 function Navbar() {
   const [program, setAllProgram] = useState([]);
@@ -68,18 +69,19 @@ else{
                   <ul className="navbar-nav ms-auto mb-2 mb-lg-0 menu-line-height">
                     <li className="nav-item mr-2">
                       <NavLink className="nav-link" aria-current="page" to="/">
-                        Home
+                        HOME
                       </NavLink>
                     </li>
                     <li className="nav-item mr-2">
                       <NavLink className="nav-link" to="/About">
-                        About
+                        ABOUT
                       </NavLink>
                     </li>
-                    <li className="nav-item dropdown mr-2">
+                    <li className=" dropdown mr-2 megapackage">
                       {/* <NavLink className="nav-link dropdown-toggle" data-toggle="dropdown" to="/Programs"> */}
-
-                      <NavDropdown
+                      
+                      <MegaServiceMenu />
+                      {/* <NavDropdown
                      
                         title="Programs"
                         id="collasible-nav-dropdown nav-link"
@@ -98,18 +100,18 @@ else{
                             </>
                           );
                         })}
-                      </NavDropdown>
+                      </NavDropdown> */}
 
                       {/* </NavLink> */}
                     </li>
                     <li className="nav-item mr-2 ">
                       <NavLink className="nav-link" to="/blogs">
-                        Blog
+                        BLOG
                       </NavLink>
                     </li>
                     <li className="nav-item mr-2 ">
                       <NavLink className="nav-link" to="/testimonial">
-                        Testimonials
+                        TESTIMONIALS
                       </NavLink>
                     </li>
                     <li className="nav-item mr-2">
@@ -119,13 +121,13 @@ else{
                     </li>
                     <li className="nav-item mr-2">
                       <NavLink className="nav-link" to="/appointment">
-                        Appointment
+                        APPOINTMENT
                       </NavLink>
                     </li>
                     
                     <li className="nav-item">
                       <NavLink className="nav-link" to="/contact">
-                        Contact
+                        CONTACT
                       </NavLink>
                     </li>
                   </ul>

@@ -29,13 +29,13 @@ AVAILABLE FOR ONLY
 </h3>
                     <div class="pricing-content">
                         <ul>
-                        <li>Hypnotic relaxation recording to introduce you to hypnotherapy sessions Value $99
+                        <li className="priceList-bga">Hypnotic relaxation recording to introduce you to hypnotherapy sessions Value $99
 </li>
-                        <li>1.5 hour to 2 hour session to address Issue/concern Value $350
+                        <li className="priceList-bgb">1.5 hour to 2 hour session to address Issue/concern Value $350
 </li>
-                        <li>Hypnotic custom voice recording Value $198
+                        <li className="priceList-bga">Hypnotic custom voice recording Value $198
 </li>
-                        <li>15-minute check-in call 7 days after the session Value $99 
+                        <li className="priceList-bgb">15-minute check-in call 7 days after the session Value $99 
 </li>
 
                         </ul>
@@ -58,11 +58,11 @@ AVAILABLE FOR ONLY
 </h3>
                     <div class="pricing-content">
                         <ul>
-                        <li>Hypnotic relaxation recording Value $99
+                        <li className="priceList-bga">Hypnotic relaxation recording Value $99
 </li>
                         <li>(2) 1.5 hour to 2 hour hypnotherapy session to address main issue/concern Value $700
 </li>
-                        <li>(2) Custom recording Transformation Value $396
+                        <li className="priceList-bga">(2) Custom recording Transformation Value $396
 </li>
                         <li>15 minute check-in call 7 days after the session Value $198</li>
                         </ul>
@@ -83,11 +83,11 @@ AVAILABLE FOR ONLY
 </h3>
                     <div class="pricing-content">
                         <ul>
-                            <li>Hypnotic relaxation recording value $99
+                            <li className="priceList-bga">Hypnotic relaxation recording value $99
 </li>
                             <li>(3) 1.5 hour to 2 hour hypnotherapy session to address main concern Value $1050
 </li>
-                            <li>(3) Custom recording Transformation Value $594
+                            <li className="priceList-bga">(3) Custom recording Transformation Value $594
 </li>
                             <li>(3) 1 hour Therapeutic EFT session to help improve you forward Value $588
 </li>
@@ -109,14 +109,14 @@ AVAILABLE FOR ONLY
 </h3>
                     <div class="pricing-content">
                         <ul>
-                       <li>
+                       <li className="priceList-bga">
 30 minute consultation Value $199 
 </li>
                        <li>Hypnotic Video Deepener created with custom script and voice over with background music and animation to reinforce installation of new positive beliefs into the subconsci!ous mind Length 10-15 minutes Value $199
 </li>
-<li>Unlimited email support for 90 days after first session Value is Priceless
+<li className="priceList-bga">Unlimited email support for 90 days after first session Value is Priceless
 </li>
-<li></li>
+
                         </ul>
                     </div>
                     <div class="pricingTable-signup">

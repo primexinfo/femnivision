@@ -1,115 +1,14 @@
 import React, { useState } from "react";
-import { Adata } from "./Adata";
-import styled from "styled-components";
-import { IconContext } from "react-icons";
-import { FiPlus, FiMinus } from "react-icons/fi";
-import image from "./image/am1.JPG";
+
 import ScrollToTop from "./ScrollToTop";
 import './accordion.css'
 
-const AccordionSection = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  height: 100vh;
-  background: #fff;
-`;
-const ColumnLeft = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 10px;
-  line-height: 1.4;
-  padding: 1rem 2rem;
-  order: ${({ reverse }) => (reverse ? "2" : "1")} h1 {
-    margin-bottom: 1rem;
-    font-size: calc(1.5rem, 6vw, 2rem);
-  }
-  p {
-    margin-bottom: 2rem;
-  }
-`;
-const ColumnRight = styled.div`
-padding: 0rem 0rem;
-order: ${({ reverse }) => (reverse ? "1" : "2")};
-display: flex;
-justify-content: center;
-align-items: center;
-@media screen and (max-width:768px){
-    order: ${({ reverse }) => (reverse ? "2" : "1")};
-}
-img{
-width: 100%;
-height: 100%;
-object-fit: cover;
-@media screen and (max-width:768px){
-    width:90%;
-    height:90%
-}`;
-const Container = styled.div`
-  position: absolute;
-  top: 30%;
-  box-shadow: 2px 10px 35px 1px rgba(153, 153, 153, 0.3);
-`;
 
-const Wrap = styled.div`
-  background: #f5f5f5;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  text-align: center;
-  cursor: pointer;
-  h3 {
-    display: flex;
-    padding-top: 15px;
-    margin-left: 1.5rem;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    color: rgb(22, 22, 22);
-  }
-  span {
-    margin-right: 1.5rem;
-  }
-`;
-
-const Dropdown = styled.div`
-  background: #f5f5f5;
-  color: rgb(22, 22, 22);
-  width: 100%;
-  height: 50px;
-  padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 2px solid #b97fb8;
-  border-top: 2px solid #b97fb8;
-  transition: 0.3s ease-in-out;
-  p {
-    font-size: 1rem;
-    transition: 0.3s ease-in-out;
-    text-align: justify;
-  }
-`;
 
 const Accordion = () => {
-  const [clicked, setClicked] = useState(false);
+ 
 
-  const toggle = (index) => {
-    if (clicked === index) {
-      //if clicked question is already active, then close it
-      return setClicked(null);
-    }
-
-    setClicked(index);
-  };
+ 
 
   return (
     <>
@@ -120,9 +19,9 @@ const Accordion = () => {
           <h5 className=" text-center">the most common question</h5>
         </div>
         <div className="descSection" >
-          <div className="hypno-img">
+         
             <p className="mx-5  ">
-            <h3>
+            <h3 className="mx-5">
               <b>What is Hypnosis?</b>
             </h3>{" "}
             <img className=" mx-5 person-img float-start" src="https://images.unsplash.com/photo-1600778321438-4785de7fb702?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
@@ -143,9 +42,11 @@ const Accordion = () => {
             The term hypnosis comes from the Greek word ‘hypnos,’ meaning sleep.
             However, while sleep is a state of unconsciousness, hypnosis allows
             you to control and focus your subconsciousness. Unlike many other
-            therapies, it contrives situations in which people respond to
+            therapies, 
+            it contrives situations in which people respond to
             imaginative suggestions <sup>2</sup>  and can be doubly effective because of
-            this. Hypnosis is a very powerful tool that can be used to boost the
+            this. Hypnosis is a very powerful tool 
+            that can be used to boost the
             effects of psychotherapy and can be used as complementary and/or an
             alternative to medicinal treatment.
             <br />
@@ -157,11 +58,11 @@ const Accordion = () => {
             <sup>2</sup>From the Oxford Handbook of Hypnosis, chapter 5.{" "}
           </p>
          
-          <br /> <br /> <br />
-          </div>
+          
+       
           
           <h3 className="mx-5">
-            <b>what is Conscious and subconscious mind?</b>
+            <b >what is Conscious and subconscious mind?</b>
           </h3>{" "}
           <img className="mx-5 person-img float-end " src="https://images.unsplash.com/photo-1605902394069-ff2ae2430e62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80" alt="" />
           <p className="mx-5">

@@ -18,7 +18,7 @@ function Footer() {
   },[])
   return (
     <>
-      <footer data-aos="fade-up" className="footer">
+      <footer  className="footer">
         <div className="footerContainer">
           <div className="footerRow">
             <div  className="footer-col">
@@ -32,12 +32,10 @@ function Footer() {
                   <a href="">services</a>
                 </li> */}
                 <li>
-                  <a href="">privacy policy</a>
+                 
+                  <Link to={"/privacy"}> <a href="">privacy policy</a></Link>
                 </li>
-              </ul>
-           
-          
-              <ul>
+             
                 <li>
                   <Link to={"/faq"}>
                     <a href="">FAQ</a>{" "}
@@ -49,8 +47,8 @@ function Footer() {
                   </Link>
                 </li> */}
                 <li>
-                  <Link to={""}>
-                    <a href="">t&s policy</a>{" "}
+                  <Link to={"/contact"}>
+                    <a href="">Contact</a>{" "}
                   </Link>
                 </li>
               </ul>

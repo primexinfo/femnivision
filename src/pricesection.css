@@ -50,8 +50,9 @@ a {
 
 .pricingTable .month {
   display: block;
-  font-size: 14px;
-  color: #cad0de
+  font-size: 16px;
+  color: #cad0de;
+  font-weight: bold;
 }
 
 .pricingTable:hover .month,
@@ -62,23 +63,35 @@ a {
 
 .pricingTable .heading {
   font-size: 20px;
-  color: #b06ab3 ;
+  color: #e0dce0 ;
   margin-top: 5px;
   margin-bottom: 15px;
-  text-transform: uppercase
+  text-transform: uppercase;
+  background: #12375c;
+  padding: 1rem;
 }
 
 .pricingTable .pricing-content ul {
-  list-style: none;
-padding-left: 10px;
+ 
+/* padding-left: 10px; */
 padding-right: 20px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  text-align: left;
+  height: 350px;
+
+}
+.priceList-bga{
+  background-color: #c1c2c7;
+  background-blend-mode:darken;
 }
 
 .pricingTable .pricing-content ul li {
  
-  line-height: 30px;
-  color: #a7a8aa
+  /* line-height: 30px; */
+  color: #3a3b3d;
+  padding: 5px;
+
+
 }
 
 .pricingTable .pricingTable-signup a {

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yesteryear&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
 .navbar {
   position: fixed;
   top: 0;
@@ -27,11 +28,13 @@
 
 
 .nav-link {
+  font-family: 'Cairo', sans-serif;
   font-weight: 600;
   color: #f1f1f1 !important;
   margin-right: 10px;
   border-radius: 5px;
   transition: 0.5s;
+  letter-spacing: 0.5px;
 }
 
 .nav-link::after{
@@ -47,9 +50,9 @@
   transition: transform 0.5s;
 }
 
-.nav-link:hover{
+/* .nav-link:hover{
   color: #95a5a6;
-}
+} */
 
 .nav-link:hover::after{
   transform: scaleX(1);
@@ -69,6 +72,15 @@
 /* .navicon:hover {
   color: #fff;
 } */
+
+.megapackage{
+  margin-left: -27px;
+
+  cursor: pointer;
+}
+.megapackage:hover{
+border: none !important;
+}
 @keyframes scrollRight {
   from {
     transform: translatex(2px);

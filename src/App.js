@@ -18,6 +18,7 @@ import Programs from "./Programs";
 import ProgramSection from "./ProgramSection";
 import Terms from "./Terms";
 import View from "./viewSection/View";
+import Privacy from "./Privacy";
 function App() {
   return (
     <>
@@ -33,6 +34,7 @@ function App() {
         <Route exact path="/blogs" element={<AllBlogs />} />
         <Route exact path="/testimonial" element={<View />} />
         <Route exact path="/terms" element={<Terms />} />
+        <Route exact path="/privacy" element={<Privacy />} />
 
         {/* <Route exact path="/blogs" element={<BlogSection {...InfoData} />} /> */}
         <Route exact path="/blog/:id" element={<BlogSection />} />

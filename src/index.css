@@ -350,17 +350,24 @@ label {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-
+  
 }
 .footer-col {
-  width: 25%;
-  padding: 0 15px;
+  /* width: 25%;
+  padding: 0 15px; */
   display: flex;
+
   align-items: center;
 }
 .footer-col ul {
   list-style: none;
+  display: inherit;
+  gap: 5rem
+  ;
+  align-items:flex-start;
 }
+
+
 .footer-col h4 {
   font-size: 18px;
   color: #fefefe;

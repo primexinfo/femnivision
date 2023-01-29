@@ -8,6 +8,7 @@ const Stepper = () => {
       }, []);
   return (
     <div class="wrapper">
+      <h1 data-aos="fade-up" className='stepTitle'>THE STEPS WE FOLLOW...</h1>
   <ol class="c-stepper">
   <li class="c-stepper__item"><h1 data-aos="fade-right"   class="c-stepper__title"> Step 1</h1>
         <div  data-aos="fade-left" class="c-stepper__content">
