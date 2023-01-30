@@ -19,10 +19,11 @@ import ProgramSection from "./ProgramSection";
 import Terms from "./Terms";
 import View from "./viewSection/View";
 import Privacy from "./Privacy";
+
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar/>
 
       <Routes>
         <Route exact path="/" element={<Home slides={SliderData} />} />
@@ -35,6 +36,7 @@ function App() {
         <Route exact path="/testimonial" element={<View />} />
         <Route exact path="/terms" element={<Terms />} />
         <Route exact path="/privacy" element={<Privacy />} />
+      
 
         {/* <Route exact path="/blogs" element={<BlogSection {...InfoData} />} /> */}
         <Route exact path="/blog/:id" element={<BlogSection />} />

@@ -12,7 +12,7 @@ const BlogSection = () => {
   const [blog, setBlog] = useState([]);
 
   useEffect(() => {
-    axios.get(`https://www.admin.sadiatherapy.com/api/blog/${id}`).then((res) => {
+    axios.get(`https://www.admin.femnivision.com/api/blog/${id}`).then((res) => {
         setBlog(res.data);
     });
   }, []);
@@ -30,7 +30,7 @@ const BlogSection = () => {
               src={`${IMG_BASE_URL}/blogs/${blog.photo}`}
               alt="cover"
             />
-            <p className="blog-desc"  dangerouslySetInnerHTML={{ __html: blog.details }}>
+            <p className="blog-desc"  dangerouslySetInnerHTML={{ __html: blog.description }}>
            
             </p>
           </div>

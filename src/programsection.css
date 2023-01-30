@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .blog-wrap {
 	max-width: 1180px;
 	margin: 0 auto;
 	
   }
   .servicestext{
+	font-family: 'Bebas Neue', cursive;
 	background: linear-gradient(to left, #4568dc, #b06ab3);
 	color: #f1f1f1;
-	padding: 50px;
-	font-size: 2.5rem;
-	font-weight: 500;
-align-items: center;
-margin-top: 100px;
+	padding: 30px;
+	font-size: 5rem;
+	gap: 10px;
+	align-items: center;
+	letter-spacing: 5px;
+	margin-top: 100px;
   }
   
   .blog-goBack {

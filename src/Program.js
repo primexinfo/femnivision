@@ -29,7 +29,7 @@ function Program() {
                 
               </h2>
         <div className="container pt-3">
-          <div className="row">
+          <div className="row justify-content-center">
             <div className="col-12">
              
             

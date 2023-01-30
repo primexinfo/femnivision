@@ -41,7 +41,7 @@ AVAILABLE FOR ONLY
                         </ul>
                     </div>
                     <div class="pricingTable-signup">
-                       <a href="/appointment">Book Now</a>
+                       <a href="/payment">Book Now</a>
                       
                     </div>
                 </div>

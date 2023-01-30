@@ -28,7 +28,7 @@ const ProgramSection = () => {
     <>
      <ScrollToTop />{" "} <h2 className="pt-5 mb-5 text-center servicestext"> THE SERVICES WE OFFER</h2>
       <div className="section anim faq-section ">
-        <div className="my-2">
+        <div >
          
          
         </div>
