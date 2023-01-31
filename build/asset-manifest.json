@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ffffa63a.css",
-    "main.js": "/static/js/main.af36f00a.js",
+    "main.js": "/static/js/main.13bca224.js",
     "static/js/787.a526ec4b.chunk.js": "/static/js/787.a526ec4b.chunk.js",
     "static/media/Famnivision.mp4": "/static/media/Famnivision.7651ada826fb576eab60.mp4",
     "static/media/cyber.jpg": "/static/media/cyber.e2f72c58aca1a96859e8.jpg",
@@ -25,11 +25,11 @@
     "static/media/rommance.jpg": "/static/media/rommance.f0cbed2cd9d9b1d0196e.jpg",
     "index.html": "/index.html",
     "main.ffffa63a.css.map": "/static/css/main.ffffa63a.css.map",
-    "main.af36f00a.js.map": "/static/js/main.af36f00a.js.map",
+    "main.13bca224.js.map": "/static/js/main.13bca224.js.map",
     "787.a526ec4b.chunk.js.map": "/static/js/787.a526ec4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffffa63a.css",
-    "static/js/main.af36f00a.js"
+    "static/js/main.13bca224.js"
   ]
 }
