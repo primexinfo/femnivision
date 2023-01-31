@@ -5,15 +5,21 @@ import { api, IMG_BASE_URL } from "./api/api";
 import { Button } from './Button';
 import "./pricesection.css";
 import "./infosection.css";
+import { Link } from 'react-router-dom';
 const MegaServiceMenu = () => {
     const [program, setAllProgram] = useState([]);
     const [navbar, setNavbar] = useState(false)
-   
+    const [count , setCount] = useState()
+    useEffect(() => {
+      const timer = setTimeout(() => {
+        setCount('Timeout called!');
+      }, 1000);
+      return () => clearTimeout(timer);
+    }, []);
     useEffect(() => {
         axios
           .get(api.allProgramm)
           .then((res) => {
-    
             setAllProgram(res.data.data);
           })
           .catch((err) => {
@@ -37,27 +43,32 @@ const MegaServiceMenu = () => {
                         return (
                           <>
                             <li style={{marginLeft:"-10px"}} class="ruby-active-menu-item">
-                  <a href="#">{val.title}</a>
+                  <Link onClick={count} to={`/program/${val.id}`}>{val.title}</Link>
                   <div
                     class="ruby-grid ruby-grid-lined"
                     style={{height: "220px", width: "700px"}}
                   >
                     <div class="ruby-row">
                       <div class="ruby-col-4">
-                        <img src={`${IMG_BASE_URL}/services/${val.photo}`} style={{marginBottom: "50px", height:"auto", width:"250px", objectFit:"fill"}}/>
+                        <Link onClick={count} to={`/program/${val.id}`}><img  src={`${IMG_BASE_URL}/services/${val.photo}`} style={{marginBottom: "50px", height:"auto", width:"250px", objectFit:"fill"}}/></Link>
+                        
                       </div>
                       <div class="ruby-col-4">
                         <span class="ruby-c-title ruby-margin-10">
-                          <a href={"#"}>{val.title}</a>
+                          <Link onClick={count} to={`/program/${val.id}`}><a >{val.title}</a></Link>
+                          
                         </span>
                         <span class="ruby-c-content">
-                          <div className='c-content-text'>
+                          <Link onClick={count} to={`/program/${val.id}`}> 
+                          <div  className='c-content-text'>
                              {val.sub_title}
                           </div>
+                          </Link>
+                         
                    
                  
                           <br />
-                          <Button to={`/program/${val.id}`} className="home-button"   style={{marginTop: "30px", float:"right",}}>
+                          <Button  onClick={count} refresh="true" to={`/program/${val.id}`} className="home-button"   style={{marginTop: "30px", float:"right",}}>
                             Read More
                           </Button>
                         </span>

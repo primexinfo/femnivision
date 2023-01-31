@@ -37,7 +37,9 @@ AVAILABLE FOR ONLY
 </li>
                         <li className="priceList-bgb">15-minute check-in call 7 days after the session Value $99 
 </li>
-
+                        <li>
+                            <strong>TOTAL VALUE $845 </strong>
+                        </li>
                         </ul>
                     </div>
                     <div class="pricingTable-signup">
@@ -65,6 +67,9 @@ AVAILABLE FOR ONLY
                         <li className="priceList-bga">(2) Custom recording Transformation Value $396
 </li>
                         <li>15 minute check-in call 7 days after the session Value $198</li>
+                        <li>
+                            <strong>TOTAL VALUE $1787</strong>
+                        </li>
                         </ul>
                     </div>
                     <div class="pricingTable-signup">
@@ -91,7 +96,9 @@ AVAILABLE FOR ONLY
 </li>
                             <li>(3) 1 hour Therapeutic EFT session to help improve you forward Value $588
 </li>
-                          
+                            <li>
+                                <strong>TOTAL VALUE $2628</strong>
+                            </li>
                         </ul>
                     </div>
                     <div class="pricingTable-signup">
@@ -116,7 +123,9 @@ AVAILABLE FOR ONLY
 </li>
 <li className="priceList-bga">Unlimited email support for 90 days after first session Value is Priceless
 </li>
-
+                        <li>
+                            <strong>TOTAL VALUE $398</strong>
+                        </li>
                         </ul>
                     </div>
                     <div class="pricingTable-signup">

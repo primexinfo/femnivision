@@ -1,0 +1,22 @@
+@media screen and (min-width: 1200px) {
+.bottom-nav{
+    display: none !important;
+    visibility: hidden;
+    margin-top: 50px;
+}
+}
+.bottom-nav-item{
+    cursor: pointer;
+}
+
+.bottom-nav-item.active {
+    background: linear-gradient(to left, #4568dc, #b06ab3);;
+    color: white;
+   
+   
+  }
+@media screen and (max-width: 768px) {
+    .bottom-nav{
+        width: 100%;
+    }
+}

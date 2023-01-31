@@ -8,7 +8,7 @@ import Appoinment from "./Appoinment";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Accordion from "./Accordion";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, useRoutes } from "react-router-dom";
 import { SliderData } from "./SliderData";
 import { InfoData } from "./InfoData";
 import BlogSection from "./BlogSection";
@@ -19,6 +19,7 @@ import ProgramSection from "./ProgramSection";
 import Terms from "./Terms";
 import View from "./viewSection/View";
 import Privacy from "./Privacy";
+import BottomNav from "./BottomNav";
 
 function App() {
   return (
@@ -36,14 +37,16 @@ function App() {
         <Route exact path="/testimonial" element={<View />} />
         <Route exact path="/terms" element={<Terms />} />
         <Route exact path="/privacy" element={<Privacy />} />
+        
       
 
         {/* <Route exact path="/blogs" element={<BlogSection {...InfoData} />} /> */}
         <Route exact path="/blog/:id" element={<BlogSection />} />
         <Route exact path="/program/:id" element={<ProgramSection />} />
       </Routes>
-
+     
       <Footer />
+       <BottomNav />
     </>
   );
 }

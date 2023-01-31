@@ -82,7 +82,10 @@ const PrevArrow = styled(IoArrowBack)`
 const NextArrow = styled(IoArrowForward)`
   ${arrowButtons}
 `;
-function Home({ slides }) {
+function Home({ slides , ...props }) {
+ console.log('home');
+  console.log(props);
+  console.log('home');
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);

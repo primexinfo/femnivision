@@ -25,7 +25,7 @@ function Footer() {
             
               <ul>
                 <li>
-                  <Link to={"/terms"}><a href="">t&c policy</a></Link>
+                  <Link to={"/terms"} preventScrollReset={true}><a href="">T&C policy</a></Link>
                   
                 </li>
                 {/* <li>
@@ -33,11 +33,11 @@ function Footer() {
                 </li> */}
                 <li>
                  
-                  <Link to={"/privacy"}> <a href="">privacy policy</a></Link>
+                  <Link to={"/privacy"} preventScrollReset={true}> <a href="">Privacy Policy</a></Link>
                 </li>
              
                 <li>
-                  <Link to={"/faq"}>
+                  <Link to={"/faq"}preventScrollReset={true}>
                     <a href="">FAQ</a>{" "}
                   </Link>
                 </li>
@@ -47,7 +47,7 @@ function Footer() {
                   </Link>
                 </li> */}
                 <li>
-                  <Link to={"/contact"}>
+                  <Link to={"/contact"}preventScrollReset={true}>
                     <a href="">Contact</a>{" "}
                   </Link>
                 </li>

@@ -2,7 +2,7 @@ import React from "react";
 import image from "../src/image/diane.jpg";
 
 import "./about.css";
-function About() {
+function About(props) {
   return (
     <div className="container anim">
       <div className="title">

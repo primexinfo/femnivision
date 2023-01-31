@@ -10,6 +10,7 @@ import ScrollToTop from "./ScrollToTop";
 import './accordion.css'
 
 const ProgramSection = () => {
+
   const { id } = useParams();
 
   const [program, setProgram] = useState([]);
@@ -30,7 +31,7 @@ const ProgramSection = () => {
       <section className="row mx-2 pb-5 ">
         <div className="descSection" >
          <h3 className="mx-5 pt-5">
-              <b>{program.title}</b>
+              <b className="">{program.title}</b>
             </h3>{" "}
             <div>
                <img className=" mx-5 faqimg float-start" src={`${IMG_BASE_URL}/services/${program.photo}`} alt="service image" />

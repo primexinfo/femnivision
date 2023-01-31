@@ -8,7 +8,10 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 
 
-function Programs() {
+function Programs(props) {
+  console.log('props');
+  console.log(props);
+  console.log('props');
   const [program, setAllProgram] = useState([]);
   useEffect(()=>{
     Aos.init({duration:2000})

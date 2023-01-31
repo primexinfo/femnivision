@@ -1,6 +1,9 @@
 import React, {useEffect, useState} from 'react'
-import Tdata from './../Tdata';
+
 import "./view.css"
+import axios from 'axios';
+import { api, IMG_BASE_URL } from '../api/api';
+
 import { Button } from '../Button';
 // import Button from './../Button'
 import Aos from 'aos';
@@ -12,22 +15,33 @@ import 'aos/dist/aos.css'
 // import required modules
 
 function View( props) {
-  const [people] = useState(Tdata)
+  const [testimonial, setTestimonial] = useState([])
   const [index, setIndex] = useState(0)
+
+useEffect(()=>{
+  axios.get(api.testimonial).then(
+    (res)=>{
+      setTestimonial(res.data)
+    }
+  ).catch((err)=>{
+    console.log(err);
+  })
+},[])
+
 
   useEffect(()=>{
     Aos.init({duration:2500})
   },[])
 
   useEffect(()=>{
-    const lastIndex = people.length -1
+    const lastIndex = testimonial.length -1
     if(index<0){
       setIndex(lastIndex)
     }
     if(index>lastIndex){
       setIndex(0)
     }
-  },[index, people])
+  },[index, testimonial])
 
   useEffect(()=>{
     let slider = setInterval(()=>{
@@ -44,20 +58,20 @@ function View( props) {
       <h2 data-aos="fade-left" className="hero-title">here are Some feedback from my clients</h2>
     </div>
     <div data-aos="fade-up"  className="section-center">
-      {people.map((item, key)=>{
-        const{id, img, name, testimoni} = item
+      {testimonial.map((item, key)=>{
+        
         let position = "nextSlide"
         if(key === index){
           position = 'activeSlide'
         }
-        if(key === index -1 || (index===0 && key === people.length -1)){
+        if(key === index -1 || (index===0 && key === testimonial.length -1)){
           position = "lastSlide"
         }
         return (
-          <article className={position} key={id} >
-            <img src={img} alt={name} className="person-img" />
-            <h4>{name}</h4>
-            <p className='text'>{testimoni}</p>
+          <article className={position} key={item.id} >
+            <img src={`${IMG_BASE_URL}/testimonials/${item.photo}`} alt={item.title} className="person-img" />
+            <h4>{item.title}</h4>
+            <p className='text' dangerouslySetInnerHTML={{__html:item.details}} ></p>
             {/* <Button className='appoinment-button'>make an appointment</Button> */}
           </article>
         )

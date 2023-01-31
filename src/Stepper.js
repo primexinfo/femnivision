@@ -7,6 +7,8 @@ const Stepper = () => {
         Aos.init({ duration: 2000 });
       }, []);
   return (
+  <>
+  
     <div class="wrapper">
       <h1 data-aos="fade-up" className='stepTitle'>THE STEPS WE FOLLOW...</h1>
   <ol class="c-stepper">
@@ -53,6 +55,7 @@ A custom Video Deepener is offered as an add-on.  The video deepener comprises a
     </li>
   </ol>
 </div>
+</>
   )
 }
 

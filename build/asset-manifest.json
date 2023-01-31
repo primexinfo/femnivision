@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b846a75c.css",
-    "main.js": "/static/js/main.e854c650.js",
+    "main.css": "/static/css/main.ffffa63a.css",
+    "main.js": "/static/js/main.af36f00a.js",
     "static/js/787.a526ec4b.chunk.js": "/static/js/787.a526ec4b.chunk.js",
     "static/media/Famnivision.mp4": "/static/media/Famnivision.7651ada826fb576eab60.mp4",
     "static/media/cyber.jpg": "/static/media/cyber.e2f72c58aca1a96859e8.jpg",
@@ -16,24 +16,20 @@
     "static/media/femnivision2.JPG": "/static/media/femnivision2.020b6c10c9020c96d266.JPG",
     "static/media/rtt3.png": "/static/media/rtt3.5d181d27c41c59c726db.png",
     "static/media/femni.jpg": "/static/media/femni.6ea653b6c41d878916e7.jpg",
-    "static/media/christian.jpg": "/static/media/christian.e03fa5ae5a2974f36612.jpg",
     "static/media/eatting.png": "/static/media/eatting.c124652737f6b3b4ba4d.png",
     "static/media/rtt4.png": "/static/media/rtt4.243241c1cfe8cbc2989f.png",
     "static/media/body.png": "/static/media/body.31eac09b9cead6c066fa.png",
-    "static/media/stiphen.jpg": "/static/media/stiphen.dcb2ffae88bb3c477df3.jpg",
-    "static/media/devid.jpg": "/static/media/devid.9d4197756b187fe4d203.jpg",
     "static/media/rier.jpg": "/static/media/rier.db4de3a629d85543e182.jpg",
-    "static/media/monika.jpg": "/static/media/monika.808c183b2c434daa4759.jpg",
     "static/media/health.jpg": "/static/media/health.fecad22ea5b00862a99d.jpg",
     "static/media/stress.jpg": "/static/media/stress.13e5cc1bcce0b59ed0f1.jpg",
     "static/media/rommance.jpg": "/static/media/rommance.f0cbed2cd9d9b1d0196e.jpg",
     "index.html": "/index.html",
-    "main.b846a75c.css.map": "/static/css/main.b846a75c.css.map",
-    "main.e854c650.js.map": "/static/js/main.e854c650.js.map",
+    "main.ffffa63a.css.map": "/static/css/main.ffffa63a.css.map",
+    "main.af36f00a.js.map": "/static/js/main.af36f00a.js.map",
     "787.a526ec4b.chunk.js.map": "/static/js/787.a526ec4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b846a75c.css",
-    "static/js/main.e854c650.js"
+    "static/css/main.ffffa63a.css",
+    "static/js/main.af36f00a.js"
   ]
 }
