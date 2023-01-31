@@ -30,7 +30,7 @@ const MegaServiceMenu = () => {
             
             </li>
             
-            <div style={{height: "220px", width: "670px", marginLeft:"-90px"  }} class="">
+            <div style={{minHeight: "220px", width: "670px", marginLeft:"-90px"  }} class="">
               <ul class="ruby-menu-mega-blog-nav">
                 
                      {program.map((val, ind) => {
@@ -44,7 +44,7 @@ const MegaServiceMenu = () => {
                   >
                     <div class="ruby-row">
                       <div class="ruby-col-4">
-                        <img src={`${IMG_BASE_URL}/services/${val.photo}`} style={{marginBottom: "50px", height:"180px", width:"250px", objectFit:"fill"}}/>
+                        <img src={`${IMG_BASE_URL}/services/${val.photo}`} style={{marginBottom: "50px", height:"auto", width:"250px", objectFit:"fill"}}/>
                       </div>
                       <div class="ruby-col-4">
                         <span class="ruby-c-title ruby-margin-10">
@@ -57,7 +57,7 @@ const MegaServiceMenu = () => {
                    
                  
                           <br />
-                          <Button to={`/program/${val.id}`} className="home-button"   style={{marginTop: "10px", float:"left",}}>
+                          <Button to={`/program/${val.id}`} className="home-button"   style={{marginTop: "30px", float:"right",}}>
                             Read More
                           </Button>
                         </span>

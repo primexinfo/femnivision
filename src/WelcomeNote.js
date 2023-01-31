@@ -43,7 +43,7 @@ useEffect(()=>{
           <img src={image} alt="" className="img-fluid" />
         </div>
         <div className="col-md-7">
-          <h2 data-aos="fade-left"  className=" my-therapy hero-title text-center">SPECIALIZATING IN THE FOLLOWiNG AREAS:</h2>
+          <h2 data-aos="fade-left"  className=" my-therapy hero-title text-center">SPECIALIZATING IN THE FOLLOWING AREAS:</h2>
             <Tabs/>
         </div>
       </div>

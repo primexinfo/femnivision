@@ -39,7 +39,7 @@ useEffect(()=>{
     <section data-aos="fade-up" className="section-info">
       <div className="row">
         <div className="col-md-8">
-          <h2 data-aos="fade-right" className="text-center my-therapy hero-title">Explore my therapy</h2>
+          <h2 data-aos="fade-right" className="text-center my-therapy hero-title">EXPLORE MY THERAPY</h2>
           {frontBlog.map((value) => {
             return (
               <div className="row mb-3 p-3">

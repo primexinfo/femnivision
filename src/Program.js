@@ -24,7 +24,7 @@ function Program() {
       <section className="section mb-5 pb-2 pt-2"> 
       <h2 className="text-center service-text-h hero-title solution-text">
                 {" "}
-                <strong>NEED A SOLUTION </strong> <br />
+                <strong>NEED A SOLUTION? </strong> <br />
                 <small style={{fontSize:"24px"}}>Explore My Programs</small>
                 
               </h2>
