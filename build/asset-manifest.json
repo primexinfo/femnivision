@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ffffa63a.css",
-    "main.js": "/static/js/main.13bca224.js",
+    "main.css": "/static/css/main.44126f91.css",
+    "main.js": "/static/js/main.8e9578d0.js",
     "static/js/787.a526ec4b.chunk.js": "/static/js/787.a526ec4b.chunk.js",
     "static/media/Famnivision.mp4": "/static/media/Famnivision.7651ada826fb576eab60.mp4",
     "static/media/cyber.jpg": "/static/media/cyber.e2f72c58aca1a96859e8.jpg",
@@ -19,17 +19,18 @@
     "static/media/eatting.png": "/static/media/eatting.c124652737f6b3b4ba4d.png",
     "static/media/rtt4.png": "/static/media/rtt4.243241c1cfe8cbc2989f.png",
     "static/media/body.png": "/static/media/body.31eac09b9cead6c066fa.png",
+    "static/media/paypal.png": "/static/media/paypal.8ee02301895ff4ec956f.png",
     "static/media/rier.jpg": "/static/media/rier.db4de3a629d85543e182.jpg",
     "static/media/health.jpg": "/static/media/health.fecad22ea5b00862a99d.jpg",
     "static/media/stress.jpg": "/static/media/stress.13e5cc1bcce0b59ed0f1.jpg",
     "static/media/rommance.jpg": "/static/media/rommance.f0cbed2cd9d9b1d0196e.jpg",
     "index.html": "/index.html",
-    "main.ffffa63a.css.map": "/static/css/main.ffffa63a.css.map",
-    "main.13bca224.js.map": "/static/js/main.13bca224.js.map",
+    "main.44126f91.css.map": "/static/css/main.44126f91.css.map",
+    "main.8e9578d0.js.map": "/static/js/main.8e9578d0.js.map",
     "787.a526ec4b.chunk.js.map": "/static/js/787.a526ec4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffffa63a.css",
-    "static/js/main.13bca224.js"
+    "static/css/main.44126f91.css",
+    "static/js/main.8e9578d0.js"
   ]
 }

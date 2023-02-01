@@ -1,5 +1,6 @@
 import React, { useState, useCallback, Component } from "react";
 import { ToastContainer, toast } from 'react-toastify';
+import {ImPaypal} from "react-icons/im"
 import axios from "axios";
 import "date-fns";
 import DateFnsUtils from "@date-io/date-fns";
@@ -10,6 +11,8 @@ import {
 } from "@material-ui/pickers";
 import "./appointment.css";
 import { BASE_URL } from './api/api';
+import paypal from './image/paypal.png'
+
 
 const Appoinment = () => {
   const d = new Date();
@@ -36,6 +39,7 @@ const Appoinment = () => {
   return (
     <>
       {/* <LocalizationProvider dateAdapter={AdapterDayjs}> */}
+     
       <div className="modal-content anim mb-4">
         <div className="modal-header ">
           <h5 className="modal-title" id="modalRequestLabel">
@@ -120,7 +124,25 @@ const Appoinment = () => {
             </div>
           </form>
         </div>
+        
       </div>
+      <div class="sticky-left-container">
+        <ul class="sticky-left">
+          <li>
+            <img width="35" height="35" color="#0000" title="" alt="" src={paypal}/>
+            <p>Pay With Paypal</p>
+          </li>
+          {/* <li>
+            <img width="32" height="32" title="" alt="" src="https://drive.google.com/uc?id=1ha6UAQlGBFXnExIXUMgs2l1QwUNgE09K" />
+            <p>Whatsapp</p>
+          </li>
+          <li>
+            <img width="32" height="32" title="" alt="" src="https://drive.google.com/uc?id=1Jthmdc-CZpBoymeHEW06x9OTj8_lW7gM" />
+            <p>Email</p>
+        </li> */}
+      </ul>
+    </div>
+   
     </>
   );
 };

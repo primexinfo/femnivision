@@ -1,0 +1,58 @@
+.modal-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:linear-gradient(to left, #4568dc, #b06ab3);;
+  margin-top: 3rem;
+  padding: 18px 41px;
+  border-bottom: 1px solid #e9ecef;
+ 
+  width: 100%;
+}
+.paysection{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.modal-text {
+  margin-bottom: 0;
+  line-height: 1.1;
+  font-size: 1.2rem;
+  background: #12375c;
+  padding: 10px;
+  border-radius: 40px;
+  cursor: pointer;
+  animation: scrollTop 0.5s alternate ease infinite;
+}
+.payicon{
+  font-size: 1.9rem;
+  color: #12375c;
+  margin-right: 10px;
+  cursor: pointer;
+  animation: scrollTop 0.5s 1s alternate ease infinite;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .modal-head {
+    padding: 6px 16px;
+  }
+  .modal-text {
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: #bebbbe;
+    background: none;
+  }
+  
+  .payicon{
+    font-size: 3rem;
+    color: #12375c;
+    margin-right: 4px;
+    cursor: pointer;
+  }
+}

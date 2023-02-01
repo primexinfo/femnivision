@@ -12,6 +12,7 @@
 }
 .welcome{
     padding-left: 0.1rem !important;
+    padding-bottom: 180px !important;
 }
 .single-blog{
     display: flex;
@@ -137,6 +138,13 @@ span{
     }
     .section-info{
         margin-top: 10rem;
+    }
+    .contact-img{
+      
+        width: 100%;
+        
+     
+        
     }
 
     .welcome{

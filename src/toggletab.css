@@ -80,7 +80,7 @@ button {
   height: 100px;
 }
 .accordion-body{
-  overflow-x: scroll;
+  
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -104,7 +104,7 @@ button {
 }
 .content .tabtext {
 color: black;
-
+text-align: justify;
 
 }
 .active-content {

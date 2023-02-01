@@ -1,7 +1,7 @@
 export const BASE_URL = `https://admin.femnivision.com/api`;
 export const IMG_BASE_URL = `https://soft.femnivision.com/assets/images`;
 export const api = {
-  blogCategories: `${BASE_URL}/category`,
+  // blogCategories: `${BASE_URL}/category`,
   frontBlogs: `${BASE_URL}/front-blogs`,
   allBlog: `${BASE_URL}/all-blogs`,
   BlogDetails: `${BASE_URL}/blog/`,

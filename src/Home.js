@@ -17,8 +17,8 @@ import ScrollToTop from "./ScrollToTop";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import PriceSection from "./PriceSection";
-import AnimatedText from "react-animated-text-content";
-// import AudioSection from "./AudioSection";
+import CallToAction from "./CallToAction";
+
 import Stepper from "./Stepper";
 // import Quote from "./Quote";
 // import TimeLine from "./TimeLine";
@@ -197,6 +197,7 @@ function Home({ slides , ...props }) {
       <Stepper />
       {/* <View data-aos="fade-up" /> */}
       <PriceSection />
+      <CallToAction/>
       <Services data-aos="fade-up" />
       {/* <ClientReview/> */}
       {/* <Accordion /> */}

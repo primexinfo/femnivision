@@ -110,7 +110,7 @@ AVAILABLE FOR ONLY
                 <div class="pricingTable ">
                     <div class="pricingTable-header">
                     <i class="fa-solid fa-face-smile-beam"></i>
-                        <div class="price-value"> $40.00 <span class="month">LIMITED TIME OFFER</span> </div>
+                        <div class="price-value"> $250.00 <span class="month">LIMITED TIME OFFER</span> </div>
                     </div>
                     <h3 class="heading">HYPNOTIC VIDEO DEEPENER
 </h3>

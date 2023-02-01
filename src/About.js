@@ -8,7 +8,7 @@ function About(props) {
       <div className="title">
         <h1 className="hero-title">About Me</h1>
       </div>
-      <div className="content row">
+      <div className="contant row">
         <div className="imagecolum col-md-6 col-sm-12">
           <img className="shadow anim mb-3 img-fluid" src={image} alt="" />
         

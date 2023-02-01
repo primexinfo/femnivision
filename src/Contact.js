@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { faAt } from "@fortawesome/free-solid-svg-icons";
+
 import "./infosection.css";
 import Aos from "aos";
 import image from "./image/femni.jpg";
+import { BASE_URL } from './api/api';
 
 import "aos/dist/aos.css";
 function Contact() {

@@ -32,11 +32,11 @@ const MegaServiceMenu = () => {
      
         <ul class="ruby-menu">
           <li class="ruby-menu-mega-blog package">
-            <li className="nav-link service" href="#">SERVICES🢓
+            <li className="nav-link service" href="#">PROGRAMS
             
             </li>
             
-            <div style={{minHeight: "220px", width: "670px", marginLeft:"-90px"  }} class="">
+            <div style={{minHeight: "240px", width: "670px", marginLeft:"-90px"  }} class="">
               <ul class="ruby-menu-mega-blog-nav">
                 
                      {program.map((val, ind) => {

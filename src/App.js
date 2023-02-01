@@ -10,7 +10,7 @@ import Footer from "./Footer";
 import Accordion from "./Accordion";
 import { Routes, Route, Navigate, useRoutes } from "react-router-dom";
 import { SliderData } from "./SliderData";
-import { InfoData } from "./InfoData";
+
 import BlogSection from "./BlogSection";
 import About from "./About";
 import AllBlogs from "./AllBlogs";
@@ -20,6 +20,7 @@ import Terms from "./Terms";
 import View from "./viewSection/View";
 import Privacy from "./Privacy";
 import BottomNav from "./BottomNav";
+
 
 function App() {
   return (
