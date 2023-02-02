@@ -26,7 +26,7 @@ function AllBlogs() {
         <div className="container-fluid mb-5">
           <div className="row">
                 {program.map((val, ind) => {
-                  return <BlogsCard key={ind} imgsrc={`${IMG_BASE_URL}/blogs/${val.photo}`} title={val.title} details={val.description.substring(0,100) } id={`/blog/${val.id}`} />;
+                  return <BlogsCard key={ind} imgsrc={`${IMG_BASE_URL}/blogs/${val.photo}`} title={val.title} details={val.description} id={`/blog/${val.id}`} />;
               
               })}
           </div>

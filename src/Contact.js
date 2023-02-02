@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import "./infosection.css";
 import Aos from "aos";
 import image from "./image/femni.jpg";
@@ -7,6 +7,29 @@ import { BASE_URL } from './api/api';
 
 import "aos/dist/aos.css";
 function Contact() {
+
+  const [contactName, setContactName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message , setMessage] = useState("")
+
+  function saveContact(e) {
+    
+    e.preventDefault();
+    let data = { contactName, email , message};
+    axios.post(`${BASE_URL}/set-contact`, data)
+      .then( (res) => 
+        alert("your message successfully sent")
+       
+      ).then(
+        setContactName(""),
+        setEmail(""),
+        setMessage("")
+      )
+      
+      .catch(error => {
+        console.log("ERROR:: ",error.response.data);
+      });
+  }
   useEffect(() => {
     Aos.init({ duration: 3000 });
   }, []);
@@ -21,29 +44,43 @@ function Contact() {
           <div className="row">
             <div className="col-lg-5 col-md-5 order-md-last d-flex pl-3 pr-3">
               <div className="contact-wrap w-100">
-                <form data-aos="fade-left">
+                <form onSubmit={saveContact} data-aos="fade-left">
                   <h5>Send message</h5>
                   <div className="form-group">
                     <span>Full Name</span>
                     <input
+                    onChange={(e) => {
+                      setContactName(e.target.value, e.preventDefault());
+                    }}
                       type="text"
                       className="form-control"
-                      name=""
+                      name="contactName"
+                      value={contactName}
                       required="required"
                     />
                   </div>
                   <div className="form-group">
                     <span>Email</span>
                     <input
+                    onChange={(e)=>{
+                      setEmail(e.target.value, e.preventDefault())
+                    }}
                       type="text"
                       className="form-control"
-                      name=""
+                      name="email"
+                      value={email}
                       required="required"
                     />
                   </div>
                   <div className="form-group">
                     <span>Write your message</span>
                     <textarea
+                      onChange={(e)=>{
+                        setMessage(e.target.value, e.preventDefault())
+                      }}
+                      type="text"
+                      name="message"
+                      value={message}
                       required="required"
                       className="form-control"
                     ></textarea>
@@ -60,22 +97,7 @@ function Contact() {
             </div>
             <div className="col-lg-6 col-md-6 d-flex align-items-stretch contact-text">
              
-                {/* <div className="dbox w-100 d-flex align-items-center">
-							<div className="icon d-flex align-items-center justify-content-center contact-text-phone">
-								<span data-aos="fade-right" className="fa fa-phone"></span>
-							</div>
-							<div className="textphone">
-								<p><span>Phone:</span> <a href="tel://+447944946496">+88********</a></p>
-							</div>
-						</div>
-						<div className="dbox w-100 d-flex align-items-center">
-							<div className="icon d-flex align-items-center justify-content-center contact-text-phone">
-								<span data-aos="fade-right" className="fa fa-envelope"></span>
-							</div>
-							<div className="textemail">
-								<p><span>Email:</span> <a href="mailto:demomail@gmail.com">demomail@gmail.com</a></p>
-							</div>
-						</div> */}
+               
 
                 <img className="contact-img" src={image} alt="femnivision" />
             
