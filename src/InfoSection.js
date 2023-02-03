@@ -53,7 +53,7 @@ useEffect(()=>{
                 </div>
                 <div className="col-md-9 pr-2">
                   <h2 className="blog-title">{value.title}</h2>
-                  <p className="paragraph" dangerouslySetInnerHTML={{ __html: value.description}}></p>
+                  <p className="paragraph" dangerouslySetInnerHTML={{ __html: value.description.substring(0,200)}}></p>
 
                   <Button className="home-button" to={`/blog/${value.id}`}>
                     Read More

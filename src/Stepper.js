@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import Aos from "aos";
 import "aos/dist/aos.css";
 import './stepper.css'
+import AnimatedText from 'react-animated-text-content';
 const Stepper = () => {
     useEffect(() => {
         Aos.init({ duration: 2000 });
@@ -10,9 +11,28 @@ const Stepper = () => {
   <>
   
     <div class="wrapper">
-      <h1 data-aos="fade-up" className='stepTitle'>THE STEPS WE FOLLOW...</h1>
+    <AnimatedText
+  type="words" // animate words or chars
+  animation={{
+    x: '200px',
+    y: '-20px',
+    scale: 1.1,
+    ease: 'ease-in-out',
+  }}
+  animationType="float"
+  interval={0.06}
+  duration={0.8}
+  tag="h1"
+  className="stepTitle"
+  includeWhiteSpaces
+  threshold={0.1}
+  rootMargin="20%"
+> 
+   THE STEPS WE FOLLOW...
+</AnimatedText>
+
   <ol class="c-stepper">
-  <li class="c-stepper__item"><h1 data-aos="fade-right"   class="c-stepper__title"> Step 1</h1>
+  <li class="c-stepper__item"><h1 data-aos="fade-right"   class="c-stepper__title"> 1</h1>
         <div  data-aos="fade-left" class="c-stepper__content">
             
             <h2 class='c-stepper__package-name'>Free No-Obligation 20-minute Discovery Call</h2>
@@ -20,7 +40,7 @@ const Stepper = () => {
 </p>
         </div>
     </li>
-    <li class="c-stepper__item"><h1 data-aos="fade-right"   class="c-stepper__title">Step 2</h1>
+    <li class="c-stepper__item"><h1 data-aos="fade-right"   class="c-stepper__title">2</h1>
         <div data-aos="fade-left" class="c-stepper__content">
             
             <h2 class='c-stepper__package-name'>Hypnotherapy Session </h2>
@@ -28,7 +48,7 @@ const Stepper = () => {
 </p>
         </div>
     </li>
-    <li class="c-stepper__item"><h1 data-aos="fade-right"   class="c-stepper__title">Step 3</h1>
+    <li class="c-stepper__item"><h1 data-aos="fade-right"   class="c-stepper__title">3</h1>
         <div data-aos="fade-left" class="c-stepper__content">
             
             <h2 class='c-stepper__package-name'>Hypnotherapy Voice Recording + Optional Video                       
@@ -42,7 +62,7 @@ A custom Video Deepener is offered as an add-on.  The video deepener comprises a
 </p>
         </div>
     </li>
-    <li class="c-stepper__item">  <h1 data-aos="fade-right"  class="c-stepper__title">Step 4</h1>
+    <li class="c-stepper__item">  <h1 data-aos="fade-right"  class="c-stepper__title">4</h1>
         <div data-aos="fade-left" class="c-stepper__content">
           
             <h2 class='c-stepper__package-name'>Post-Session Follow-Up</h2>

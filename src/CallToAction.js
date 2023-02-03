@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 const CallToAction = () => {
   return (
-    <div className="row justify-content-center">
-      <div className="col-md-10">
+    <div className=" section row justify-content-center">
+      <div className="col-mb-5">
         <div className="modal-head ">
           <button className="modal-text" id="modalRequestLabel">
            FREE DISCOVERY CALL
@@ -27,11 +27,12 @@ const CallToAction = () => {
     </Link>
           <div className="paysection">
            
-           <FaCcPaypal className="payicon"/>
+          <a href="https://paypal.me/null?country.x=US&locale.x=en_US">
           <button className="modal-text" id="modalRequestLabel"  data-bs-toggle="tooltip" data-bs-placement="top" title="secure payment by Paypal">
-            Pay With Paypal
+          <FaCcPaypal className="payicon"/>
+          Paypal Me 
           </button>
-           
+           </a>
           
           </div>
         </div>

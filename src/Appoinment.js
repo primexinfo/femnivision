@@ -129,8 +129,9 @@ const Appoinment = () => {
       <div class="sticky-left-container">
         <ul class="sticky-left">
           <li>
-            <img width="35" height="35" color="#0000" title="" alt="" src={paypal}/>
-            <p>Pay With Paypal</p>
+            <a href="https://paypal.me/null?country.x=US&locale.x=en_US"><img width="35" height="35" color="#0000" title="" alt="" src={paypal}/>
+            <p>Pay With Paypal</p></a>
+            
           </li>
           {/* <li>
             <img width="32" height="32" title="" alt="" src="https://drive.google.com/uc?id=1ha6UAQlGBFXnExIXUMgs2l1QwUNgE09K" />

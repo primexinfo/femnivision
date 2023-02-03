@@ -20,7 +20,7 @@ const PriceSection = () => {
             <div class="col-md-3 col-sm-6">
                 <div  class="pricingTable">
                     <div class="pricingTable-header">
-                    <i class="fa-solid fa-face-smile-beam"></i>
+                    
                         <div class="price-value"> $397.00 <span class="month"> LIMITED TIME OFFER
 </span> </div>
                     </div>
@@ -52,7 +52,7 @@ AVAILABLE FOR ONLY
             <div class="col-md-3 col-sm-6">
                 <div class="pricingTable ">
                     <div class="pricingTable-header">
-                    <i class="fa-solid fa-face-smile-beam"></i>
+                    
                         <div class="price-value"> $797.00 <span class="month">LIMITED TIME OFFER
 </span> </div>
                     </div>
@@ -80,7 +80,7 @@ AVAILABLE FOR ONLY
             <div class="col-md-3 col-sm-6">
                 <div class="pricingTable ">
                     <div class="pricingTable-header">
-                    <i class="fa-solid fa-face-smile-beam"></i>
+                    
                         <div class="price-value"> $1841.00 <span class="month">LIMITED TIME OFFER
 </span> </div>
                     </div>
@@ -109,7 +109,7 @@ AVAILABLE FOR ONLY
             <div class="col-md-3 col-sm-6">
                 <div class="pricingTable ">
                     <div class="pricingTable-header">
-                    <i class="fa-solid fa-face-smile-beam"></i>
+                    
                         <div class="price-value"> $250.00 <span class="month">LIMITED TIME OFFER</span> </div>
                     </div>
                     <h3 class="heading">HYPNOTIC VIDEO DEEPENER

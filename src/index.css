@@ -73,6 +73,9 @@ body {
   width: 100%;
   border-radius: 50%;
 }
+.msgtext{
+  color: #12375c;
+}
 
 #header h3 {
   /* background: #2e3560; */
@@ -362,7 +365,7 @@ label {
 .footer-col ul {
   list-style: none;
   display: inherit;
-  gap: 5rem
+  gap: 3rem
   ;
   align-items:flex-start;
 }

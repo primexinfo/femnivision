@@ -40,12 +40,12 @@ function Contact() {
           <h2 className="hero-title contact-title">CONTACT WITH ME</h2>
         </div>
     
-          <div className="row"></div>
+          
           <div className="row">
             <div className="col-lg-5 col-md-5 order-md-last d-flex pl-3 pr-3">
-              <div className="contact-wrap w-100">
+              <div className="pl-2 pr-2 contact-wrap w-100">
                 <form onSubmit={saveContact} data-aos="fade-left">
-                  <h5>Send message</h5>
+                  <h4 className="msgtext"><strong>Send message</strong> </h4>
                   <div className="form-group">
                     <span>Full Name</span>
                     <input

@@ -37,7 +37,7 @@
 .contact-img{
     margin-top: 45px;
     width: auto;
-    margin-left: -20px;
+   
     height: 250px;
     
 }
@@ -117,9 +117,7 @@ a{
 .paragraph{
     text-align: justify;
 }
-span{
-    color: #b06ab3;
-}
+
 .img-fluid{
     margin-top: 25px;
 }
@@ -129,6 +127,9 @@ span{
         padding-left: 2rem;
         padding-right: 2rem;
         padding-bottom: 2rem;
+    }
+    .hero-title{
+        font-size: 2rem;
     }
     .contact-text{
         padding-left: 13px;

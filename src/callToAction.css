@@ -24,16 +24,23 @@
   padding: 10px;
   border-radius: 40px;
   cursor: pointer;
-  animation: scrollTop 0.5s alternate ease infinite;
-}
-.payicon{
-  font-size: 1.9rem;
-  color: #12375c;
-  margin-right: 10px;
-  cursor: pointer;
-  animation: scrollTop 0.5s 1s alternate ease infinite;
+  /* animation: scrollTop 0.5s alternate ease infinite; */
 }
 
+.modal-text:hover{
+  box-shadow: 0 0 10px #12375c
+}
+
+.payicon{
+  font-size: 1.7rem;
+  color: #f8f8f8;
+  margin-right: 10px;
+  cursor: pointer;
+  /* animation: scrollTop 0.5s 1s alternate ease infinite; */
+}
+.payicon{
+  box-shadow: 0 0 10px #12375c
+}
 
 
 
