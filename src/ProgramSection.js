@@ -35,16 +35,14 @@ const ProgramSection = () => {
               <b className="">{program.title}</b>
             </h3>{" "}
             <div className="col-12">
-               <img className=" mx-5 faqimg float-start" src={`${IMG_BASE_URL}/services/${program.photo}`} alt="service image" />
+               <img className=" mx-5 faqimg float-start mb-3" src={`${IMG_BASE_URL}/services/${program.photo}`} alt="service image" />
             <p className="mx-5 p-2" dangerouslySetInnerHTML={{ __html: program.description }} >
           </p>
          
             </div>
-           
-          
        
           <div className="col-12">
-              <img className="mx-5 faqimg float-end " src={`${IMG_BASE_URL}/image2/${program.image2}`} alt="Service image" />
+              <img className="mx-5 faqimg float-end mb-3" src={`${IMG_BASE_URL}/image2/${program.image2}`} alt="Service image" />
           <p className="mx-5 p-2" dangerouslySetInnerHTML={{ __html: program.details }}>
        
           </p>{" "}
