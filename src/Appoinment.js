@@ -4,6 +4,7 @@ import {ImPaypal} from "react-icons/im"
 import axios from "axios";
 import "date-fns";
 import DateFnsUtils from "@date-io/date-fns";
+
 import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker,
@@ -12,6 +13,7 @@ import {
 import "./appointment.css";
 import { BASE_URL } from './api/api';
 import paypal from './image/paypal.png'
+import CallToAction from './CallToAction';
 
 
 const Appoinment = () => {
@@ -121,10 +123,14 @@ const Appoinment = () => {
                 value="Make an Appointment"
                 className="btn btn-primary sub-button"
               />
-            </div>
+            </div> 
+
+         
           </form>
+
+      
         </div>
-        
+       
       </div>
       <div class="sticky-left-container">
         <ul class="sticky-left">
@@ -143,7 +149,8 @@ const Appoinment = () => {
         </li> */}
       </ul>
     </div>
-   
+        
+        <CallToAction/>
     </>
   );
 };

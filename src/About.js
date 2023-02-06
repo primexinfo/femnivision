@@ -6,7 +6,7 @@ function About(props) {
   return (
     <div className="container anim">
       <div className="title">
-        <h1 className="hero-title">About Me</h1>
+        <h1 className="about-title">About Me</h1>
       </div>
       <div className="contant row">
         <div className="imagecolum col-md-6 col-sm-12">

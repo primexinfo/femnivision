@@ -25,7 +25,7 @@ function Program() {
       <h2 className="text-center service-text-h hero-title solution-text">
                 {" "}
                 <strong>NEED A SOLUTION? </strong> <br />
-                <small style={{fontSize:"24px"}}>Explore My Programs</small>
+                <small style={{fontSize:"24px", color:"#fefefe"}}>Explore My Programs</small>
                 
               </h2>
         <div className="container pt-3">

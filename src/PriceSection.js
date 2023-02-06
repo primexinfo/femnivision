@@ -42,10 +42,10 @@ AVAILABLE FOR ONLY
                         </li>
                         </ul>
                     </div>
-                    <div class="pricingTable-signup">
+                    <button class="pricingTable-signup">
                        <a href="/payment">Book Now</a>
                       
-                    </div>
+                    </button>
                 </div>
             </div>
 

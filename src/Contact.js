@@ -4,6 +4,7 @@ import "./infosection.css";
 import Aos from "aos";
 import image from "./image/femni.jpg";
 import { BASE_URL } from './api/api';
+import './contact.css'
 
 import "aos/dist/aos.css";
 function Contact() {
@@ -86,11 +87,10 @@ function Contact() {
                     ></textarea>
                   </div>
                   <div className="form-group">
-                    <input
-                      type="submit"
-                      className="btn send-button"
-                      value="Send Message"
-                    />
+                  <button type="submit"className="send-button">
+                    Send Message
+                  </button>
+                   
                   </div>
                 </form>
               </div>

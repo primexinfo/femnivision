@@ -1,0 +1,49 @@
+.send-button {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius:5px;
+    transition: 0.5s;
+    color: #fff;
+  
+    text-decoration: none;
+    animation-delay: 0.6s;
+    background: #2e3560 !important;
+    font-family: 'Oswald', sans-serif;
+  
+    font-weight: 100;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.2s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+  
+    opacity: 0.9 !important;
+  }
+  .send-button::after {
+    color: #ffffff !important;
+      background:linear-gradient(to right, #4568dc, #b06ab3);
+      border-radius: 5px;
+      content: '';
+      display: block;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transform: translate(-100%, 0) rotate(10deg);
+      transform-origin: top left;
+      transition: 0.2s transform ease-out;
+      will-change: transform;
+      z-index: -1;
+    }
+    .send-button:hover::after {
+      transform: translate(0, 0);
+     
+    }

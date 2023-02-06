@@ -8,6 +8,7 @@ import axios from "axios";
 import "./programsection.css";
 import ScrollToTop from "./ScrollToTop";
 import './accordion.css'
+import CallToAction from "./CallToAction";
 
 const ProgramSection = () => {
 
@@ -28,12 +29,12 @@ const ProgramSection = () => {
   return (
     <>
      <ScrollToTop />{" "} <h2 className="pt-5 mb-5 text-center servicestext"> THE SERVICES WE OFFER</h2>
-      <section className="row mx-2 pb-5 ">
-        <div className="descSection" >
+      <section className="mx-2 pb-5 ">
+        <div className="descSection row" >
          <h3 className="mx-5 pt-5">
               <b className="">{program.title}</b>
             </h3>{" "}
-            <div>
+            <div className="col-12 mb-5">
                <img className=" mx-5 faqimg float-start" src={`${IMG_BASE_URL}/services/${program.photo}`} alt="service image" />
             <p className="mx-5 p-2" dangerouslySetInnerHTML={{ __html: program.description }} >
           </p>
@@ -42,7 +43,7 @@ const ProgramSection = () => {
            
           
        
-          <div>
+          <div className="col-12">
               <img className="mx-5 faqimg float-end " src={`${IMG_BASE_URL}/image2/${program.image2}`} alt="Service image" />
           <p className="mx-5 p-2" dangerouslySetInnerHTML={{ __html: program.details }}>
        
@@ -52,7 +53,10 @@ const ProgramSection = () => {
        
         
         </div>
+          
+        <CallToAction/>
       </section>
+      
     </>
   );
 };

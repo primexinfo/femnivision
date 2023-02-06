@@ -7,7 +7,8 @@
   background: #f1f1f1;
   margin: auto;
   padding-top: 10px;
-  word-break: break-all;
+  text-align: justify;
+  /* word-break: break-all; */
   /* border: 1px solid rgba(0, 0, 0, 0.274); */
   border-radius: 7px;
   /* box-shadow: 0 0 10px #ababab; */

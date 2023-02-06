@@ -95,24 +95,59 @@ padding-right: 20px;
 }
 
 .pricingTable .pricingTable-signup a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
   display: inline-block;
-  font-size: 15px;
+  padding: 10px 30px;
+  border-radius:5px;
+  transition: 0.5s;
   color: #fff;
-  padding: 10px 35px;
-  border-radius: 20px;
-  background: linear-gradient(to left, #4568dc, #b06ab3) ;
-  text-transform: uppercase;
-  transition: all .3s ease 0s
-}
+ 
+  text-decoration: none;
+  animation-delay: 0.6s;
+  background-color: #2e3560 !important;
+  font-family: 'Oswald', sans-serif;
 
-.pricingTable .pricingTable-signup a:hover {
-  box-shadow: 0 0 10px #bb2685 
-}
+  font-weight: 100;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
 
-.pricingTable.blue .heading,
-.pricingTable.blue .price-value {
+  opacity: 0.9 !important;
+}
+.pricingTable .pricingTable-signup a::after {
+  color: #ffffff !important;
+    background:linear-gradient(to right, #4568dc, #b06ab3);
+    border-radius: 5px;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: 0.2s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+  }
+  .pricingTable .pricingTable-signup a:hover::after {
+    transform: translate(0, 0);
+   
+  }
+
+
+/* .pricingTable .pricingTable-signup a:hover {
   color: #bb2685
-}
+} */
 
 .pricingTable.blue .pricingTable-signup a,
 .pricingTable.blue:hover .pricingTable-header {

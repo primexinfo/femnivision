@@ -2,33 +2,43 @@ import React from "react";
 import "./callToAction.css";
 import {FaCcPaypal} from 'react-icons/fa'
 import { Link } from "react-router-dom";
+import {FaRegCalendarAlt} from "react-icons/fa"
+import {MdPhonelinkRing} from "react-icons/md"
 
 
 // import sound from "./kesariya.mp3"
 
 const CallToAction = () => {
   return (
-    <div className=" section row justify-content-center">
+    <div className="  row justify-content-center">
       <div className="col-mb-5">
         <div className="modal-head ">
-          <button className="modal-text" id="modalRequestLabel">
-           FREE DISCOVERY CALL
+        <Link  to={"/appointment"}>
+          <button className="modal-text" >
+          <MdPhonelinkRing className="payicon"/>
+           FREE DISCOVERY CALL 
           </button>
+          </Link>
+          
           {/* <audio
             src="./song/kesariya.mp3"
             type="audio/mpeg"
             controls
             autoPlay
-          /> */}<Link  to={"/appointment"}>
-          <button className="modal-text" id="modalRequestLabel">
-             Make an Appointment
+          /> */}
+          <div className="paysection">
+          <Link  to={"/appointment"}>
+          <button className="modal-text">
+          <FaRegCalendarAlt className="payicon"/>
+             Make an Appointment 
            
           </button>
-    </Link>
+    </Link></div>
+          
           <div className="paysection">
            
-          <a href="https://paypal.me/null?country.x=US&locale.x=en_US">
-          <button className="modal-text" id="modalRequestLabel"  data-bs-toggle="tooltip" data-bs-placement="top" title="secure payment by Paypal">
+          <a href="https://www.paypal.com/paypalme/femnivision" target="_blank" rel="noopener noreferrer">
+          <button className="modal-text" >
           <FaCcPaypal className="payicon"/>
           Paypal Me 
           </button>

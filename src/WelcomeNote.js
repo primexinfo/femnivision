@@ -41,6 +41,12 @@ useEffect(()=>{
       <div className="row">
       <div className="col-md-5 pr-2">
           <img src={image} alt="" className="img-fluid" />
+          <div className="appointment-header ">
+          <Link to={'./appointment'}><h5 className="appointment-title" id="modalRequestLabel">
+            Make an Appointment
+          </h5></Link>
+          
+        </div>
         </div>
         <div className="col-md-7">
           <h2 data-aos="fade-left"  className=" my-therapy hero-title text-center">SPECIALIZATING IN THE FOLLOWING AREAS:</h2>
