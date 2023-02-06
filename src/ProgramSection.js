@@ -34,7 +34,7 @@ const ProgramSection = () => {
          <h3 className="mx-5 pt-5">
               <b className="">{program.title}</b>
             </h3>{" "}
-            <div className="col-12 mb-5">
+            <div className="col-12">
                <img className=" mx-5 faqimg float-start" src={`${IMG_BASE_URL}/services/${program.photo}`} alt="service image" />
             <p className="mx-5 p-2" dangerouslySetInnerHTML={{ __html: program.description }} >
           </p>
